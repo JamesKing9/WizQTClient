@@ -225,6 +225,9 @@ QString WizPathResolve::introductionNotePath()
     return resourcesPath() + "files/introduction/";
 }
 
+/*
+* 反斜杠 
+*/
 void WizPathResolve::addBackslash(QString& strPath)
 {
     strPath.replace('\\', '/');
